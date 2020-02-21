@@ -1,0 +1,13 @@
+var markMass = 200;
+var johnMass = 210;
+var markHeight = 71;
+var johnHeight = 76;
+
+var markBMI = markMass / (markHeight * markHeight);
+var johnBMI = johnMass / (johnHeight * johnHeight);
+console.log(markBMI, johnBMI);
+
+var compBMI = markBMI > johnBMI;
+console.log(compBMI);
+
+console.log("Is Mark's body mass index higher than Mark's?" + '' + compBMI);
